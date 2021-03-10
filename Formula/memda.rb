@@ -1,11 +1,11 @@
 class Memda < Formula
-  VERSION = "v1.3.0".freeze
+  VERSION = "v1.3.1".freeze
 
   # rubocop:disable Layout/HashAlignment
   SUMS = Hash[
-    "darwin-amd64"  => "827ed60e3b2d258c6065dcf29e7dd4ab67e4216636a40e5f2fc40bfaef3faa41",
-    "darwin-arm64"  => "ef3b75e713118d46788f31fe6e16e4ba9d6da304b1755ab31e7d8f55f344b34f",
-    "linux-amd64"   => "ccb9ef958bd6b51337e0dfb7c3fde0ab889ebd7c4178e7cd20770066ca21dee6"
+    "darwin-amd64"  => "0027994f0d393436475e0ef5d7bd8d66482e648765189160f57511543089c9a1",
+    "darwin-arm64"  => "02345dadee486f272bd0b659662432ad1d66330b4c236e6ed9071bacda3a5a84",
+    "linux-amd64"   => "875a350871d0242c2cd261ea67a2dfcacc1fc0df22cdf17b8d58477651e32573"
   ].freeze
   # rubocop:enable Layout/HashAlignment
   RAW_OS = `uname -s`.freeze
