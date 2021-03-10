@@ -20,7 +20,7 @@ class Memda < Formula
   end
 
   OS = (RAW_OS == "Darwin\n" ? "darwin" : "linux").freeze
-  ARCH = (RAW_OS == "x86_64\n" ? "amd64" : "arm64").freeze
+  ARCH = (RAW_ARCH == "x86_64\n" ? "amd64" : "arm64").freeze
 
   SHA256 = SUMS["#{OS}-#{ARCH}"].freeze
 
