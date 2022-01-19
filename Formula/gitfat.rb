@@ -1,4 +1,4 @@
-class Memda < Formula
+class Gitfat < Formula
   VERSION = "v1.0.0".freeze
 
   # rubocop:disable Layout/HashAlignment
